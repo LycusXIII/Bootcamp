@@ -1,0 +1,17 @@
+body{
+  background-color: black; /* the body is used as to set the background color */
+  color: white;
+  font-family: Arial, Helvetica;
+}
+
+.mainbody {
+  background-color: black;
+  border: 5px solid white; /* This defines the border and*/
+  padding: 10px; /* This adds some space between the border and the content */
+  max-width: 1300px; /*sets the maximum width */
+  margin: 0 auto;
+}
+
+a:visited {
+  color: white;
+}

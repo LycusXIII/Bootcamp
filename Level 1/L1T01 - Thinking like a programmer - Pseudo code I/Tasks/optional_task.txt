@@ -1,0 +1,33 @@
+An algorithm that asks the user to enter four numbers, sorts those
+numbers from smallest to largest and then prints the sorted
+numbers.
+
+SET tempnumber to 0
+SET number1 to 0
+SET number2 to 0
+SET number3 to 0
+SET number4 to 0
+
+PROMPT "Enter the first number"
+SET user INPUT to number1
+PROMPT "Enter the second number"
+SET user INPUT to number2
+PROMPT "Enter the third number"
+SET user INPUT to number3
+PROMPT "Enter the fourth number"
+SET user INPUT to number4
+
+REPEAT
+	FOR i = 1 TO 3
+		IF number(i) > number(i + 1)
+			SET tempnumber to number(i)
+			SET number(i) to number(i + 1)
+			SET number(i + 1) = tempnumber
+		ENDIF
+	ENDFOR
+ENDREPEAT
+
+PRINT number1
+PRINT number2
+PRINT number3
+PRINT number4

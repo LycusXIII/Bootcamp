@@ -1,0 +1,33 @@
+1. The "P" in HTTP means protocol. Explain in your own words what a protocol is.
+	- A protocol defines a set of rules when performing a particular task
+
+2. HTTP is built on top of which protocol?
+	- TCP/IP
+	
+3. If a request is successful, what will the status code of the response be?
+	- The status code will be in the 200s if the request was successful.
+
+4. What is a stateless protocol?
+	- Every request from an HTTP request is independent and does not relate to a request
+	that came before.
+	
+5. Which of the following are valid MIME types?
+	a. text/time
+	b. image/jpeg
+	c. text/javascript
+	d. text/jsx
+	e. image/psd
+	f. text/calendar (correct)
+
+	From the list above only these are valid:
+	- image/jpeg
+	- text/javascript
+	- image/psd (not correct)
+
+6. Which status message can you expect if a server does not allow you
+   permission to request a specific resource?
+	- 403 Forbidden
+
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+https://www.techtarget.com/whatis/definition/HTTP-Hypertext-Transfer-Protocol

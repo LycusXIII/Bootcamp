@@ -1,0 +1,68 @@
+An algorithm that asks a user to enter a positive number repeatedly
+until the user enters a zero value, then determines and outputs the
+largest of the numbers that were input
+--
+SET largest_number to 0
+
+SET number to -1
+
+WHILE number is not equal to 0 DO
+	PROMPT "Enter a positive number or enter 0 to quit"
+	SET number to user INPUT
+	
+	IF number > 0 AND number > largest_number THEN
+		SET largest_number = number
+	ELSE
+		PRINT "0 or a none positive number was entered"
+	ENDIF
+ENDWHILE
+
+PRINT "The largest number that was entered was " + largest_number
+
+----------------------------------------------------------------------------------------
+An algorithm that reads an arbitrary number of integers and then
+returns their arithmetic average.
+--
+SET total to 0
+SET count to 0
+SET average to 0
+
+READ list of arbitary numbers
+FOR each number in the list of arbitary numbers DO
+	CALCULATE add number from list of arbitary numbers to total
+	INCREMENT count by 1
+ENDFOR
+CALCULATE the average of total divided by count
+PRINT "The arithmetic average is " + average
+
+----------------------------------------------------------------------------------------
+An algorithm that reads a grocery list and prints out the products
+(in alphabetical order) that are still left to buy
+--
+SET grocery_list
+SET left_to_buy
+
+READ grocery_list
+FOR each item in the grocery_list DO
+	PROMPT "Current item has it been bought Yes / No"
+	SET yes_no to user INPUT
+	IF user yes_no is No
+		APPEND to left_to_buy
+	ENDIF
+ENDFOR
+SORT left_to_buy alphabetical
+PRINT left_to_buy
+
+----------------------------------------------------------------------------------------
+An algorithm for the flowchart
+--
+
+READ X and Y
+
+SET S to X + Y
+SET A to S divided by 2
+SET P to X multiplied by Y
+
+PRINT "S, A, P"
+
+-----------------------------------------------------------------------------------------

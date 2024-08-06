@@ -1,0 +1,42 @@
+● Suggest which generic software model will be most appropriate for the
+development of the following systems. Give reasons for your answer.
+	○ A system to control anti-lock braking in a car
+		- Waterfall model
+		- The waterfall model is ideal for  software that 
+		  focuses on safety/security. The nature of ABS system
+		  demands a rigorous and well-defined development process.
+
+	○ A virtual reality system to support software maintenance
+		- Incremental development model
+		- The incremental development approach gives an initial version
+		  to the user for feedback and that feedback is used to evolve
+		  the system with several versions until the user is system is
+		  adequatly developed for specified usage.
+
+	○ A university accounting system that replaces an existing system
+		- Reuse-Oriented software engineering model
+		- Making use of the existing system to make changes to the software
+		  and adjust it to fit the new requirements of the system will 
+		  reduce the development time and effort needed and this approach
+		  allows a smoother transition to the new system.
+
+	○ An interactive travel planning system that helps users plan trips
+	  with the lowest environmental impact
+		- Incremental development model
+		- For this type of system there will always be changes made
+		  until the software is adequate for the intended usage thus
+		  giving the user an initial version and making changes with 
+		  the feedback received will be needed.
+	  
+● Why do you think incremental development is the most effective
+  approach for developing business software systems?
+	- Having an initial system to work with will allow the user to
+	  give feedback and suggest changes to enhance or fix the software
+	  where necessary.
+	  
+● Look at the diagram showing the reuse-oriented software engineering
+  process above. Why do you think it is necessary to have two separate 
+  requirements engineering steps in this process?
+	- The old system will have a different set of requirements than the
+	  new system with the added changes being made to the software
+	  resulting in new requirements being needed.

@@ -1,0 +1,65 @@
+● Do some research to find real-world examples of when each architecture
+  pattern would be most appropriate to use. Write down your examples, and
+  state your reasons why each pattern would be most appropriate for each
+  of the examples you found.
+	● Layered Architecture:
+	 https://madushaprasad21.medium.com/layered-architecture-84afbfcef10f#:~:text=At%20least%20three%20distinct%20layers,use%20layers%20to%20your%20advantage.
+	 - Example: Gmail.
+	   - Presentation Layer:
+	     - Gmail has a web version and a mobile app.
+		 - Composing, reading emails and managing emails.
+	   - Business Layer
+	     - Core functionalitiest like sending and receiving emails, spam filtering and
+		   adding attachments to emails (or accessing the attachment of a received email)
+	   - Database Layer
+	     - Uses Google's storage system to store and retrieve data related to the gmail account.
+	   - Using the layered architecture makes this easier to change the outermost layers
+	     and makes it easier to have differente versions and languages for the Web/Mobile.
+
+	● Repository Architecture:
+	  https://www.techtarget.com/searchitoperations/definition/GitHub
+	  - Example GitHub:
+	    - GitHub stores all code in repositories at a central locations which is accessed by the user.
+	    - Users either makes use of the web version or applicaiton to interact with GitHubs API which
+          is independent from the main storage repository.
+	    - Different repositories inside GitHub are isolated from each other ensuring more
+		security and data integrity for individual projects.
+
+	● Client-Server Architecture:
+	  https://www.theknowledgeacademy.com/blog/client-server-architecture/
+	  - Example: Massive Multiplayer Onlines Games (MMO's)
+	  - MMO's often use a client-server model, where the cleint runs on your computer displaying 
+	    the games graphics and handling user input while the servers manages the games world and
+		other players interactions and maintains the games versions/updates this allows for real
+		time interaction between players on the same servers.
+	  - a Client-server Architecture can handle alot of clients per server efficiently and having
+	    the server managing the data storage, security and administration ensures better security
+		and safer data storage.
+
+	● Pipe and Filter Architecture:
+	  https://medium.com/@e0324913/pipe-and-filter-software-architecture-cdf47a14d789
+	  - Example ImageMagick:
+	    - An image gets import to the software then the user choses a filter if the user 
+		  wants to add another filter the output of the first filters gets passed as input 
+		  or the 2nd filter this makes for a clear pipeline for image manipulation.
+
+● Give two examples of systems combining two or more patterns, and
+  explain how these patterns complement each other.
+	● Microsoft Outlook
+	  - Layered and Client-Server Architectures.
+	  - Having componets separated into layers makes the system more modular and scalable.
+	  - The client handles all the user interactions and local processing, while the server
+	    manages the email storage, security and other operations.
+	  - By using both these architectures makes it easier for the system to be updated and
+	    changed and letting the server handle all the important tasks and process makes
+		the client side more respsonive.
+	● Spotify
+	  - Layered, Client-Server and Repository Architecture
+	  - Spofity can be divided into layers like user interface, music streaming, managing 
+	    playlist, ect. Makes the system more modular and scalable.
+	  - The app itself acts as the client which request data or functionality from the server.
+	  - Spotify has a massive music library that acts as a repository from where the servers
+	    retrieves its data
+	  - By using these 3 architectures it makes it easier for the system to be updated/changed 
+	    and by having all the music in a repository it makes it easier for the user to accesse
+		the music via the client.

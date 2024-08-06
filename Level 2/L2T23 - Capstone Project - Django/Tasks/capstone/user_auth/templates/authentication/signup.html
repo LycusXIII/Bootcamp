@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Poll Details:</title>
+        <link href="{% static 'assets/user.css' %}" rel="stylesheet" type="text/css">
+    </head>
+<body>
+    <section class="mainbody">
+        {% block content %}
+            <h2>Sign up</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Sign Up</button>
+            </form>
+        {% endblock %}
+        <br>
+        <a href="/">Home</a>
+    </section>
+</body>
+</html>

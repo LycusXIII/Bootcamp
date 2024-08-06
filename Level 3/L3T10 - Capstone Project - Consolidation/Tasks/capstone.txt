@@ -1,0 +1,4 @@
+Regarding the dockerfile i have tried alot of things but can never get my CSS to work
+inside the docker image (it works when i run it via django on vs code)
+
+https://github.com/LycusXIII/Capstone-Project---Consolidation

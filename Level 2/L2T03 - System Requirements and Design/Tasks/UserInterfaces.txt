@@ -1,0 +1,33 @@
+● Go to http://www.pnwx.com/. Do you think the website has a good UI? Refer to the
+  information provided in the task and discuss both good and bad elements
+  in the website’s UI.
+	Good Ui Elements:
+	● Navigation
+	  - Using the search bar or the most popular links.
+	Bad UI Elements:
+	● Confusing Layout
+	  - Images either to big or to many.
+	  - Some images are on the left side of the text making it even more confusing.
+	● Unclear Navigation
+	  - After selecting/searching for a item the main menu to navigate (Home, Equipment,
+	    Accessories, Supplies, Parts) are to small to read
+	● Poor Visual Design
+	  - The background colour and some font colors
+	● Non-responsiveness
+	  - The website does change according to the window of the browsers
+	    but it makes the website look worse.
+	
+● Now go to https://www.ucook.co.za/. Do you think the website has a good UI?
+  Discuss both the good and bad elements in the website’s UI.
+	Good Ui Elements:
+	● Clarity and Simplicity:
+	  - Its clear and easy to find what meals you might be looking for.
+	  - The layout is organized neatly and uncluttered.
+	● Visual Design
+	  - The colors and images is appealing and conistent.
+	● Navigation
+	  - Its easy and clear to navigate through the site and its various menus
+	● Responsiveness
+	  - The website changes according to the size of the window of the browser.
+	Bad UI Elements:
+	  - None of the UI elements are bad

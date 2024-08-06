@@ -1,0 +1,66 @@
+body{
+  background-color: black; /* the body is used as to set the background color */
+  color: white;
+  font-family: Arial, Helvetica;
+}
+
+.mainbody {
+  background-color: black;
+  border: 5px solid white; /* This defines the border and*/
+  padding: 10px; /* This adds some space between the border and the content */
+  max-width: 1300px; /*sets the maximum width */
+  margin: 0 auto;
+}
+
+#menu {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#menu a {
+  margin-right: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  margin-right: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+
+#bannerImage{
+  width: 100%;
+  object-fit: cover;
+}
+
+#onePiece{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+#fairyTail{
+  width: 100%;
+  max-height: 580px;
+  object-fit: cover;
+}
+
+#frieren{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+/* https://www.w3schools.com/cssref/css_colors.php

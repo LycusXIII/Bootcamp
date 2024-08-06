@@ -1,0 +1,55 @@
+● Briefly describe possible quality standards that might be used for these
+  real-world products:
+	○ Mobile game app
+		● Usability - The game should be playable on multiple different phones.
+		            - The game should be easy to learn and navigating the menus should be easy.
+		● Reliability - The game should run smoothly on a variety of different phones.
+					  - In the event of crashes or other errors data loss should be prevented.
+		● Efficiency - Data usage and battery consumption should be as low as possible.
+	○ Banking application
+		● Security - Strong encryption to protect user data and multifactor authentication
+					 to prevention unautherized access.
+		● Usability - The UI should be user-friendly and easy to navigate.
+		● Reliability - The application should be available and functioning 24/7.
+	○ Database for a medical organisation
+		● Security - Strong encryption for sensitive patient data, access controls to prevent
+					 unautherized access to the database.
+		● Reliability - The database should be reliable and have minimal downtime or data loss.
+		● Efficiency - Ability to handle access from multiple users at the same time. 
+	                 - Data retrieval should be fast for medical records.
+
+● Explain why a high-quality software process should lead to high-quality
+  software products. Discuss possible problems with this system of quality
+  management.
+	○ Following a well-defined quality plan makes the goal and standards clear as to what
+	  the software's purpose and quality expectations should be. Helping those involved
+	  to keep their work on track towards the same goal and maintaining quality
+	  expectations.
+	○ Code reviews allow developers to detect and resolve defects early in the development
+	  cycle which improves the overall quality.
+	○ The quality plan also helps with identifying potential risks and outlines possible
+	  mitigation strategies, this could prevent problems later in the development
+	
+	● Possible problems:
+		○ Following a strict quality plan makes the development process more rigid and could slow
+		  down development.
+		○ Agile development won't work well with a strict quality plan, agile development has
+		  very little documentation.
+		○ The quality plan might not account for all potential risks.
+		
+● Explain why program inspections are an effective technique for
+  discovering errors in a program. What types of errors are unlikely to be
+  discovered through inspections?
+	https://www.geeksforgeeks.org/how-software-inspection-improves-software-quality/
+	○ Software inspection done by other developers has a higher chance of finding errors
+	  by looking at the code from a different perspective making it more likely to spot
+      errors in the code. These inspections can be done throughout the development cycle
+      which could result in errors being found early and fixed before it becomes a bigger
+      more costly problem.
+	○ Errors that can only appear during program execution like performance issues.
+	
+● Why is it difficult to validate the relationships between internal product
+  attributes and external attributes?
+	○ Internal attributes can be directly measured where as external attributes like
+	  user satisfaction or maintainability will depend on the users perception/experience
+	  these can be hard to quantify and will rely on user testing or surveys.

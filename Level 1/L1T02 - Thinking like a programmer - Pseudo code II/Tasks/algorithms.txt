@@ -1,0 +1,30 @@
+An algorithm that requests a user to input their name and then
+stores their name in a variable called first_name. Subsequently, the
+algorithm should print out first_name along with the phrase “Hello,
+World”.
+--
+PROMPT "Enter your name"
+SET first_name to user INPUT
+
+PRINT first_name + " Hello World"
+
+----------------------------------------------------------------------------------------------
+An algorithm that asks a user to enter their age and then stores
+their age in a variable called age. Subsequently, the algorithm
+should print out “You’re old enough” if the user’s age is over or
+equal to 18, or print out “Almost there” if the age is equal to or over
+16, but less than 18. Finally, the algorithm should print out “You’re
+just too young” if the user is younger than (and not equal to) 16
+--
+PROMPT "Enter your age"
+SET age to user INPUT
+
+IF age is => to 18
+	PRINT "You're old enough"
+ELSEIF age is => 16 AND age < 18
+	PRINT "Almost there"
+ELSE
+	PRINT "You’re just too young"
+ENDIF
+
+----------------------------------------------------------------------------------------------

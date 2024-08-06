@@ -1,0 +1,41 @@
+○ A short bio: add a short (no more than three paragraphs) description
+of yourself. Who are you? What is your experience? What are your
+passions? What motivates you? What is it that you would most like to
+do? Etc.
+As a kid I always liked puzzels and stratagy games Starcraft, Command & Conquer and Age Of Empires.
+Then got introduced to programing via friends, school and instantly liked the idea and enjoyed it
+feels like solving a puzzel to get the desired results or outcome. Finding the answer or fixing
+what is broken usual gives me more motivate. Would like to either be a software developer or software engineer or even a game developer would be the things i would like to do the most and possible live in
+Japan in the future, thier food is awesome and the culture is interesting.
+
+○ Your contact details: e.g. name, contact number, email address, and
+links to any of your (professional) social media, including LinkedIn. An
+image of yourself.
+
+Name : Heinrich Bester
+Phone number: 0815593777
+Email Address: heinrichbester@gmail.com
+LinkedIn: www.linkedin.com/in/heinrich-bester-2b0342169
+Need Image: ...... (stock image)
+
+○ A list of your skills and competencies.
+
+
+○ Describe your education.
+Highschool : Hoërskool Gimnasium, Potchefstroom (Matric December 2011)
+College: CTI (Potchefstroom & Durban) Comprehensive Programming (74%) February 2014
+Other Course:
+ISTQB® Certified Tester Foundation Level - July 2018
+API & Web Service Introduction - December 2020
+Quick Introduction to Postman for Beginners - December 2020
+Postman : The Complete Guide – REST API Testing - March 2021
+
+Current Course:
+HpyerionDev Software engineering bootcamp.
+
+○ Describe your work experience.
+I have no official work experience
+
+○ Incorporate additional functionality using a GET form and a POST
+form into your CV.
+

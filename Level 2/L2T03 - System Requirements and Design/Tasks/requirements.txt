@@ -1,0 +1,55 @@
+An automated ticket-issuing system sells rail tickets. Users select their
+destination and input a credit card and a personal identification number.
+The rail ticket is issued and their credit card account is charged. When the
+user presses the start button, a menu display of potential destinations is
+activated, along with a message to the user to select a destination. Once a
+destination has been selected, users are requested to input their credit
+card. Its validity is checked and the user is requested to input a personal
+identifier. When the credit transaction has been validated, the ticket is
+issued.
+Based on this:
+	● Discuss any ambiguities or omissions in the statement of
+	  requirements for this part of a ticket-issuing system.
+	  - Ticket system.
+		- After the user has selected a destination it does not
+		  mention anything about the number of people that are allowed
+		  with one ticket or that one can buy multiple tickets in a single
+		  transaction.
+		- There is also no mention of prices, travel time, available seats,
+          seat selection being displayed.
+	  - Payment.
+	    - The payment system mentions only credit cards is that the only
+		  payment system that is used to buy tickets or are there other
+		  methods of payment?
+	  - Personal identification number.
+	    - What is the purpose of this number?
+	  - System Functionality.
+	    - Can one cancel a transaction or can it handle refunds?
+        - Does the system include a method in case a user loses their ticket?
+        - There is no mention of what happens if an error occurs during a transaction
+		  or how the system handles error messages.
+
+	● Write a set of non-functional requirements for the ticket-issuing
+	  system above. You are free to make assumptions regarding the
+	  system based on ambiguities or omissions you identified previously.
+		- Functionality.
+		  - Allow ticket purchases for one or more passengers.
+		  - Have different payment methods.
+		  - Have the option to cancel transactions before the payment is completed.
+		  - Needs a function for handling refunds.
+		  - Needs a function for handling lost tickets.
+		- Usability.
+		  - User-friendly interface for selecting desitnations and navigation
+		    the system.
+		  - The interface needs to display ticket prices travel time
+		    and available seats for each destination.
+		- Reliability.
+		  - The system needs to detect and handle errors that could occur.
+		  - Clear error messages should be displayed.
+		- Performance.
+		  - The system should be fast and responsive during transactions.
+		  - System should be up and running during service times.
+		- Security.
+		  - Payment via credit cards needs to have a secure protocol.
+		  - Assuming the personal identification number is used to 
+		    identify the users and validate that the users owns the ticket.

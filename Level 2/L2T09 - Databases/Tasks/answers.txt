@@ -1,0 +1,34 @@
+1. Define each of the following terms:
+	a) Data
+		- Data are raw facts that have not been processed.
+	b) Field
+		- A field represents a specific charateristic or attribute of the
+		  entity the record describes.
+	c) Record
+		- A record is a collection of related fields that describes a person, place or thing.
+		
+	d) File
+		- a file is a collection of related records.
+		
+2. What is a DBMS and what are its advantages?
+	- DBMS stands for database management system
+	- Better data sharing, Improved data integration, Minimised data inconsistency
+	  Improved data access, Improved decision making, Increased end-user productivity.
+
+3. Explain the difference between data and information.
+	- Data are raw facts which has not been processed to reveal its meaning.
+	- Information is the results of processing raw data to reveal its meaning.
+
+4. What is metadata?
+	- Metadata is the data that provides more information about one or more 
+	  aspects of the data.
+
+5. Given the file below, answer the following questions:
+	e) How many records does the file contain?
+		- 4
+	f) How many fields are there per record?
+		- 5
+
+12-002-1 Databases.pdf
+https://en.wikipedia.org/wiki/Metadata#:~:text=Metadata%20is%20defined%20as%20the,working%20with%20specific%20data%20easier.
+https://raima.com/database-terminology/

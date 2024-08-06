@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Anivote</title>
+    <link href="{% static 'assets/index.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section class="mainbody">
+        <!--Banner image using a url-->
+        <img id="bannerImage" src="https://wallpapercave.com/wp/wp6148078.png"
+            alt="banner image">
+        <hr size="5" width="100%" color="white">
+        <div id="menu"><a href="/polls/">Vote</a>
+            <a href="/accounts/login/">Login/Register</a>
+        </div>
+        <hr size="5" width="100%" color="white">
+        <h1>Welcome Anivote's homepage:</h1>
+        <p>For today there are 3 anime trailers to watch then vote on
+            if you liked the trailer or not.<br>
+            Below you will find the 3 anime with a link to the trailer and
+            for more information use the MyAnimeList link.</p>
+        <section>
+            <hr size="5" width="100%" color="white">
+            <img id="onePiece" src="{% static 'assets/PngItem_6228786.png' %}"
+                alt="Banner image of One Piece">
+            <!--Original location of the image couldn't get the url for it
+            https://www.pngitem.com/middle/TTbbRih_one-piece-anime-banner-hd-png-download/-->
+            <p>One piece a story about a young boy named Monkey D. Luffy who dreams
+                of becoming the next king of the pirates and finding the legendary
+                treasure of the previous pirate king Gol D. Roger the ONE PIECE.<br>
+                For more information 
+                <a href="https://myanimelist.net/anime/21/One_Piece" target="_blank">click here</a><br>
+                To watch the trailer 
+                <a href="https://www.youtube.com/watch?v=LHTYpWI3S6Q" target="_blank">click here</a><br>
+                To vote <a href="/polls/">click here</a></p>
+        </section>
+        <section>
+            <hr size="5" width="100%" color="white">
+            <img id="fairyTail" src="https://static.toiimg.com/thumb/msid-108421525,imgsize-137136,width-400,resizemode-4/108421525.jpg" 
+            alt="Image of Fairy tail 100 year quest">
+            <p>Fairy Tail 100 Year Quest is a story about a group of wizards
+                taking on a quest that has not been completed for a 100 years
+                many other wizards have attempted this quest only a few made it 
+                back alive.<br>
+                For more information 
+                <a href="https://myanimelist.net/anime/49785/Fairy_Tail__100-nen_Quest" target="_blank">click here</a><br>
+                To watch the trailer 
+                <a href="https://www.youtube.com/watch?v=E1a5MRYIGUk" target="_blank">click here</a><br>
+                To vote <a href="/polls/">click here</a></p>
+        </section>
+        <section>
+            <hr size="5" width="100%" color="white">
+            <img id="frieren" src="https://www.bubbleblabber.com/wp-content/uploads/2023/10/frieren-beyond-journeys-end-key-art-1320x743.png" 
+            alt="Image of Frieren: Beyond Journey's End">
+            <p>Frieren: Beyond Journey's End tells a story after the demon king was defeated
+                by the hero's party, she was a part of all those years ago.
+                Frieren being a long-lived race has outlived all her former comrades
+                and now she is on the same journey the heroes took all those years ago.
+                What will she rediscover and remember along the way?<br>
+                For more information 
+                <a href="https://myanimelist.net/anime/52991/Sousou_no_Frieren" target="_blank">click here</a><br>
+                To watch the trailer 
+                <a href="https://www.youtube.com/watch?v=GpZ-Uw0mw_8" target="_blank">click here</a><br>
+                To vote <a href="/polls/">click here</a></p>
+        </section>
+    </section>
+</body>
+</html>

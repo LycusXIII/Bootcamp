@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Blog Posts:</title>
+    <link href="{% static 'assets/externalCSS.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section class="mainbody">
+        <h1>Blog Posts:</h1>
+        <hr size="1" width="100%" color="black">
+        <div id="sidebar">
+            <!--Navigation links-->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+            </ul>
+        </div>
+        <!--Blog content-->
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </section>
+</body>
+</html>

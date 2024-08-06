@@ -1,0 +1,53 @@
+● Do some research about the different approaches to deployment. What
+  are the pros and cons of each? When would you use each approach?
+	○ Direct deployment:
+		- Pros: Fast and minimal disruptions after the switch is made.
+		- Cons: If the new system has issues or errors everything would go down.
+		- When to use: If switching to a new system is deemed low risk and was 
+		  thoroughly tested.
+	○ Parallel deployment:
+		- Pros: This allows a comparison between new and old systems.
+		- Cons: Requires more resources to run both systems at the same time.
+		- When to use: When downtime risk is too high running both systems until
+			the new system is stable and everyone is comfortable using the new system
+			then the old one can be switched off.
+	○ Phased deployment:
+		- Pros: Easier for users to become familiar with the new system step by step.
+		- Cons: Releasing the new system step by step takes much longer to be fully deployed
+		- When to use: If the new system is large and complex training of users is crucial.
+
+● Answer the following scenarios:
+	○ A second-hand book shop is converting from a paper system to
+	  digital, and they've asked you to develop their catalog software.
+	  After finishing, how do you deploy it and why?
+		- Direct deployment was fast and simple since the bookstore did not have a digital
+		  system before there is no need to deploy it any other way. Switching over to 
+		  the digital system as soon as possible would cause fewer disruptions than using both
+		  the paper and digital system at the same time and with a second-hand bookstore
+		  their catalog of books should be relatively small in comparison.
+
+	○ A large retail chain has asked you to develop a more modern set of
+	  tools for their use, including point-of-sale systems, stock records,
+	  and customer service systems. After finishing, how do you deploy it
+	  and why?
+		- Phased deployment, this being a large retail chain with an existing system
+		  and most likely a lot of employes using the systems rolling the new system out
+		  gradually will reduce the risk and make training easier.
+
+	○ You have developed an alternate fire alarm system for a large
+	  shopping center. This system's reliability is of utmost importance.
+	  After finishing, how do you deploy it and why?
+		- Phased deployment, phased deployment allows for a more controlled introduction
+		  to the new system reducing risks and minimal disruptions or downtimes. Using a 
+		  phased deployment in a large shopping center allows for the system to be installed
+		  and tested in smaller sections of the building once those smaller sections are up and
+		  running without any issues the deployment can be moved to another section of the
+		  building.
+
+https://www.thesunshinelayer.com/p/5-deployment-strategies-that-make
+https://www.ktlsolutions.com/pros-and-cons-of-the-different-implementation-strategies/
+https://www.linkedin.com/advice/1/what-advantages-disadvantages-parallel-deployment
+https://medium.com/@maheshsaini.sec/top-5-most-used-deployment-strategies-5d74f8b13b99
+https://www.apwide.com/8-deployment-strategies-explained-and-compared/
+https://dzone.com/articles/deployment-strategies
+https://ellow.io/software-deployment-checklist-and-best-practices/

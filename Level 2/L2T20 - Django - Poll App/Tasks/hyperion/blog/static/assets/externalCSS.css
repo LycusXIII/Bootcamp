@@ -1,0 +1,12 @@
+body{
+    background-color: steelblue; /* the body is used as to set the background color */
+}
+
+.mainbody {
+    background-color: lightgray;
+    border: 10px solid black; /* This defines the border and*/
+    padding: 10px; /* This adds some space between the border and the content */
+    text-align: left;
+    max-width: 960px; /*sets the maximum width */
+    margin: 0 auto;
+  }

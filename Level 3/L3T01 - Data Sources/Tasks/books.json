@@ -1,0 +1,40 @@
+{
+    "books": [
+        {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "author": "Author: J.K. Rowling ",
+            "year": "1997 ",
+            "genre": "Fantasy"
+        },
+        {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "author": "Author: J.K. Rowling ",
+            "year": "1998",
+            "genre": "Fantasy"
+        },
+        {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "author": "Author: J.K. Rowling ",
+            "year": "1999",
+            "genre": "Fantasy"
+        },
+        {
+            "title": "Harry Potter and the Goblet of Fire",
+            "author": "Author: J.K. Rowling ",
+            "year": "2000",
+            "genre": "Fantasy"
+        },
+        {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "author": "Author: J.K. Rowling ",
+            "year": "2003",
+            "genre": "Fantasy"
+        },
+        {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "author": "Author: J.K. Rowling ",
+            "year": "2005",
+            "genre": "Fantasy"
+        }
+    ]
+}

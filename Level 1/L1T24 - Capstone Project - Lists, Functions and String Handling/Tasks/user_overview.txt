@@ -1,0 +1,27 @@
+Details for admin:
+Total number of tasks assigned:   3
+The percentage of tasks assigned: 100%
+Percentage of tasks completed:    33%
+Percentage of tasks incomplete:   67%
+The percentage of overdue tasks:  67%
+Percentage of tasks overdue:      67%
+────────────────────────────────────────
+Details for TestAccount@101:
+Total number of tasks assigned:   0
+The percentage of tasks assigned: 0%
+Percentage of tasks completed:    100%
+Percentage of tasks incomplete:   0%
+The percentage of overdue tasks:  0%
+Percentage of tasks overdue:      0%
+────────────────────────────────────────
+Details for test:
+Total number of tasks assigned:   0
+The percentage of tasks assigned: 0%
+Percentage of tasks completed:    100%
+Percentage of tasks incomplete:   0%
+The percentage of overdue tasks:  0%
+Percentage of tasks overdue:      0%
+────────────────────────────────────────
+Total number of users:               3
+Total number of tasks:               3
+────────────────────────────────────────

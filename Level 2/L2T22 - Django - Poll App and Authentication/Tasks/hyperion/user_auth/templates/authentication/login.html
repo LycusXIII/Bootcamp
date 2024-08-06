@@ -1,0 +1,18 @@
+<h1> Please login </h1>
+
+<form action="{% url 'user_auth:authenticate_user' %}" method="post">
+    {% csrf_token %}
+    
+    <label>Username</label>
+    <input type="text" name="username" required>
+    <br/><br/>
+
+    <label>Password</label>
+    <input type="password" name="password" required>
+    <br/><br/>
+
+    <input type="submit" value="Login" />
+    <!--Link for user registration-->
+    <p>Don't have an account? <a href="{% url 'user_auth:signup' %}"
+        class="text-primary fw-bold">Sign Up</a></p>
+</form>

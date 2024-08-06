@@ -1,0 +1,5 @@
+numbers = list(map(int, input("Enter 3 whole numbers sperarated by spaces: \n").split()))
+print(f"The sum of all the numbers: {sum(numbers)}")
+print(f"The first number minus the second number {numbers[0]- numbers[1]}")
+print(f"The third number multiplied by the first number {numbers[2] * numbers[0]}")
+print(f"The sum of all three numbers divided by the third number {sum(numbers) / numbers[2]}")

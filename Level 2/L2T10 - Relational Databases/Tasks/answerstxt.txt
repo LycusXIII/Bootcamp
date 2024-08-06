@@ -1,0 +1,19 @@
+● What is normalisation?
+	- Its a process for evaluating and correcting table structures to minimise 
+	  date redundancies.
+	
+● When is a table in 1NF?
+	- All key attributes are defined.
+	- No repeating groups.
+	- All attributes are dependent on the primary key.
+
+● When is a table in 2NF?
+	- It is in 1NF
+	- It has no partial dependencies. (no attribute that is dependend on only a portion
+	  of the primary key)
+
+● When is a table in 3NF?
+	- It is in 2NF
+	- It contains no transitive dependencies.
+	
+12-003-1 Relational Databases.pdf
